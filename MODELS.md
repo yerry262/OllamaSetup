@@ -140,6 +140,98 @@ ollama cp dolphin-mistral my-dolphin
 
 ---
 
+## 🏅 Top 2025 Ollama Models (Community Ranked)
+
+Models released in 2025 that received the most community acclaim from r/ollama, r/LocalLLaMA, and X/Twitter.
+
+### 🥇 Tier 1: Game Changers
+
+| Model | Size | Type | Released | Why It's Top Ranked |
+|-------|------|------|----------|---------------------|
+| `deepseek-r1` | 1.5B-671B | 🧠 Reasoning | Jan 2025 | ⭐ **Model of the Year** - Matches OpenAI o1/o3 performance, fully open weights, reasoning chains visible |
+| `qwen3` | 0.6B-235B | 🤖 General | May 2025 | Best overall open model family, thinking mode, MoE variants, multilingual |
+| `qwen3-coder` | 30B-480B | 💻 Coding | May 2025 | ⭐ **Best Agentic Coder** - Long context, function calling, VS Code favorite |
+| `gpt-oss` | 20B/120B | 🧠 Reasoning | Nov 2025 | OpenAI's first open weights model, strong agentic orchestration |
+| `gemma3` | 270M-27B | 🤖 General | Mar 2025 | ⭐ **Best Single GPU Model** - Vision capable, runs on consumer hardware |
+
+### 🥈 Tier 2: Excellent Performers
+
+| Model | Size | Type | Released | Why It's Ranked |
+|-------|------|------|----------|-----------------|
+| `qwen3-vl` | 2B-235B | 👁️ Vision | Apr 2025 | Best open vision-language model, excellent image understanding |
+| `gemma3n` | e2B/e4B | 📱 Edge | Jun 2025 | Designed for phones/tablets, selective parameter activation |
+| `phi4` | 14B | 🧠 Reasoning | Jan 2025 | Microsoft's SOTA small model, great math/reasoning |
+| `phi4-reasoning` | 14B | 🧠 Reasoning | May 2025 | Rivals larger models on complex reasoning tasks |
+| `llama4` | 16x17B/128x17B | 👁️ Vision MoE | Mar 2025 | Meta's multimodal Scout and Maverick models |
+| `mistral-small3.1` | 24B | 👁️ Vision | Mar 2025 | Vision + 128K context, excellent instruction following |
+| `cogito` | 3B-70B | 🧠 Reasoning | Apr 2025 | Hybrid reasoning, outperforms same-size competitors |
+
+### 🥉 Tier 3: Strong Contenders
+
+| Model | Size | Type | Released | Why It's Ranked |
+|-------|------|------|----------|-----------------|
+| `deepseek-v3` | 671B | 🤖 MoE | Jan 2025 | Efficient MoE, 37B active params, strong general performance |
+| `olmo-3` / `olmo-3.1` | 7B/32B | 🤖 General | Dec 2025 | Fully open source including training data, Claude-like conversations |
+| `devstral` | 24B | 💻 Coding | Jun 2025 | Mistral's coding agent model, 80+ languages |
+| `codestral:22b` | 22B | 💻 Coding | May 2024→2025 | Still top-tier for code gen, 80+ language support |
+| `magistral` | 24B | 🧠 Reasoning | Jun 2025 | Efficient reasoning model with tool support |
+| `granite3.3` / `granite4` | 2B-8B | 🛠️ Enterprise | Feb-Sep 2025 | IBM's enterprise-ready models, improved reasoning |
+| `dolphin3` | 8B | 🔓 Uncensored | Jan 2025 | Function calling, modern Dolphin with agentic support |
+| `r1-1776` | 70B/671B | 🧠 Reasoning | Feb 2025 | Perplexity's unbiased DeepSeek-R1 post-trained variant |
+| `exaone-deep` | 2.4B-32B | 🧠 Reasoning | Apr 2025 | LG AI's reasoning models, strong math/coding |
+
+### 🆕 Late 2025 Releases (December)
+
+| Model | Size | Type | Released | Notes |
+|-------|------|------|----------|-------|
+| `minimax-m2` / `m2.1` | MoE | 💻 Coding | Dec 2025 | "Changed everything for agentic tasks" - community favorite |
+| `glm-4.6` / `glm-4.7` | MoE | 🧠 Reasoning | Dec 2025 | Frontier performance claims, strong coding |
+| `kimi-k2` | MoE | 💻 Coding | Dec 2025 | State-of-art on coding agent benchmarks |
+| `deepseek-v3.1` / `v3.2` | 671B | 🧠 Hybrid | Nov-Dec 2025 | Thinking + non-thinking mode hybrid |
+| `qwen3-next` | 80B MoE | 🤖 General | Dec 2025 | First Qwen3-Next installment, param efficient |
+| `nemotron-3-nano` | 30B | 🛠️ Agentic | Dec 2025 | NVIDIA's new standard for efficient agents |
+
+---
+
+### 📊 2025 Models by Use Case (Quick Reference)
+
+| Use Case | Top Pick | Runner-up | Budget Option |
+|----------|----------|-----------|---------------|
+| **Agentic/Tool Calling** | `minimax-m2` | `qwen3-coder:30b` | `dolphin3` |
+| **Coding** | `qwen3-coder:30b` | `devstral:24b` | `codestral:22b` |
+| **Reasoning** | `deepseek-r1:70b` | `gpt-oss:120b` | `phi4-reasoning` |
+| **Vision** | `qwen3-vl:30b` | `gemma3:27b` | `llama3.2-vision:11b` |
+| **General Chat** | `qwen3:32b` | `gemma3:12b` | `olmo-3:7b` |
+| **Edge/Mobile** | `gemma3n:e4b` | `phi4-mini` | `qwen3:0.6b` |
+| **Uncensored** | `deepseek-r1` | `dolphin3` | `dolphin-mistral` |
+
+---
+
+### 🗣️ Community Quotes (2025)
+
+> *"DeepSeek R1 is a game changer. Matches o1 and runs locally."* — r/ollama
+
+> *"MiniMax-M2 changed everything for agentic tasks. Light years ahead of Qwen and GLM."* — r/LocalLLaMA
+
+> *"Qwen3 Coder 30b has been the most exciting release this year."* — r/LocalLLaMA Best of 2025
+
+> *"GLM-4.6 is stronger for my work with forward and reverse engineering."* — r/LocalLLaMA
+
+> *"gpt-oss-120b was the first open model that usefully raised the bar for agentic orchestration."* — r/LocalLLaMA
+
+---
+
+### ⚠️ 2025 Disappointments (Community Consensus)
+
+| Model | Issue |
+|-------|-------|
+| Llama 4 | "Biggest disappointment" - didn't live up to hype |
+| Some Granite variants | Output quality issues reported |
+| Gemma 3n vision | GGUF vision not fully working |
+| Qwen3 tool-calling | "Useless as a tool-calling platform" (some users) |
+
+---
+
 ## 🔧 Environment Variables
 
 ```powershell
@@ -169,4 +261,4 @@ Get-ChildItem "D:\ollama Models" -Recurse | Measure-Object -Property Length -Sum
 
 ---
 
-*Last updated: January 4, 2026*
+*Last updated: January 5, 2026*
