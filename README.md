@@ -47,14 +47,18 @@ chmod +x pull-models.sh
 
 After installation, run Ollama:
 ```bash
-ollama run dolphin-mistral
+# Best for coding/VS Code
+ollama run qwen3-coder:30b
+
+# Fast uncensored chat
+ollama run dolphin3
 ```
 
 Or use with an API:
 ```bash
 curl http://localhost:11434/api/generate -d '{
-  "model": "dolphin-mistral",
-  "prompt": "Hello, world!"
+  "model": "qwen2.5-coder:14b",
+  "prompt": "Write a Python function to read a JSON file"
 }'
 ```
 
