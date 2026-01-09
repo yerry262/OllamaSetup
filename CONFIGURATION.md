@@ -149,7 +149,7 @@ ollama serve
 
 ### Open WebUI (Docker)
 ```bash
-docker run -d -p 3000:8080 \
+docker run -d -p 7777:8080 \
   --add-host=host.docker.internal:host-gateway \
   -v open-webui:/app/backend/data \
   --name open-webui \
