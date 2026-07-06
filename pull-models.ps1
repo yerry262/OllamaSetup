@@ -61,8 +61,8 @@ switch ($choice) {
     }
     "4" {
         Write-Host "`nEnter model names separated by commas:" -ForegroundColor Yellow
-        $input = Read-Host
-        $modelsToInstall = $input -split ',' | ForEach-Object { $_.Trim() }
+        $customInput = Read-Host
+        $modelsToInstall = $customInput -split ',' | ForEach-Object { $_.Trim() }
     }
     "5" {
         Write-Host "Cancelled." -ForegroundColor Gray

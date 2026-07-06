@@ -33,14 +33,14 @@ fi
 echo ""
 echo "📥 Installing Ollama..."
 
-if [[ "$PLATFORM" == "Linux" ]] || [[ "$PLATFORM" == "Mac" ]]; then
+if [[ "$PLATFORM" == "Linux" ]]; then
     curl -fsSL https://ollama.com/install.sh | sh
-    
+
     if [ $? -eq 0 ]; then
         echo ""
         echo "✅ Ollama installed successfully!"
         ollama --version
-        
+
         echo ""
         echo "📋 Next steps:"
         echo "   1. Run ./pull-models.sh to download recommended models"
@@ -50,6 +50,14 @@ if [[ "$PLATFORM" == "Linux" ]] || [[ "$PLATFORM" == "Mac" ]]; then
         echo "❌ Installation failed"
         exit 1
     fi
+elif [[ "$PLATFORM" == "Mac" ]]; then
+    echo "ℹ️  The Ollama install script (install.sh) only supports Linux."
+    echo "   On macOS, install Ollama using one of the following:"
+    echo "   • Download the app: https://ollama.com/download/mac"
+    echo "   • Or with Homebrew:  brew install ollama"
+    echo ""
+    echo "📋 After installing, run ./pull-models.sh to download recommended models."
+    exit 0
 else
     echo "❌ Unsupported platform: $PLATFORM"
     echo "   Please install manually from: https://ollama.com/download"
